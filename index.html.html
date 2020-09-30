@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The DSAD Group</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Krona+One|Open+Sans:600" rel="stylesheet">   
+
+<style type="text/css">
+  body, html {
+    height: 100%;
+    line-height: 1.4;
+}
+.w3-bar .w3-button {
+    padding: 18px;
+}
+</style>
+</head>
+
+<!--Website designed by Nikhil Rastogi. Support at nikhilrastogi1996@gmail.com -->
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button" style="font-family: 'Krona One', sans-serif;">Digital System Architecture and Design Research Group</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small w3-hide-medium">
+      <a href="index.html" class="w3-bar-item w3-button w3-green w3-hover-teal"><i class="fa fa-home"></i> HOME</a>
+      <a href="publications.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-book"></i> PUBLICATIONS</a>
+      <a href="projects.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-th"></i> PROJECTS</a>
+      <a href="people.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-user"></i> PEOPLE</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close X</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="publications.html" onclick="w3_close()" class="w3-bar-item w3-button">PUBLICATIONS</a>
+  <a href="projects.html" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="people.html" onclick="w3_close()" class="w3-bar-item w3-button">PEOPLE</a>
+</nav>
+<br>
+<br>
+<br>
+<div class="w3-container">
+<p style="font-family: 'Open Sans', sans-serif;font-size: 16px">
+  The Digital System Architecture and Design (DSAD) Research Group at the Department of Electronics and Communications Engineering, Delhi Technological University is led by Prof.Neeta Pandey. The research of the group is primarily focused on enhancing and optimizing the hardware architectures targeting the most recent advances in Computation, Information Security, and Artificial Intelligence.</p>
+  
+
+<div class="w3-content w3-display-container" style="width:50%">
+
+<div class="w3-display-container mySlides w3-animate-opacity">
+  <img src="group.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-medium w3-container w3-padding-16 w3-black">
+    Senior Group of 2018
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+  <p style="font-family: 'Open Sans', sans-serif;font-size: 16px">  
+  The primary goal of this group is to develop a research temperament among students and provide them with a platform to hone their skills in digital frontend design under capable mentorship. The research done by this group has been acknowledged by reputed International conferences, which bears testimony to the dedication and commitment of the members to achieve this goal. 
+</p>
+</div>
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <img src="dtulogo.png" class="w3-round" style="width:180px">
+
+        <p class="footer-links">
+          Delhi Technological University
+        </p>
+
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Shahbad Daulatpur, Main Bawana Road</span> New Delhi, India</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>011-27871018</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:dsad@dtu.ac.in">dsad@dtu.ac.in</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the college</span>
+          One of the oldest premier engineering institutes in India.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+<script type="text/javascript">
+  var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>

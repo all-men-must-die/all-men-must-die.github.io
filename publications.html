@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The DSAD Group</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Krona+One|Open+Sans:600" rel="stylesheet">
+  
+
+<style type="text/css">
+  body, html {
+    height: 100%;
+    line-height: 1.4;
+}
+.w3-bar .w3-button {
+    padding: 18px;
+}
+</style>
+</head>
+
+<!--Website designed by Nikhil Rastogi. Support at nikhilrastogi1996@gmail.com -->
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button" style="font-family: 'Krona One', sans-serif;">DSAD Research Group</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small w3-hide-medium">
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-home"></i> HOME</a>
+      <a href="publications.html" class="w3-bar-item w3-button w3-green w3-hover-teal"><i class="fa fa-book"></i> PUBLICATIONS</a>
+      <a href="projects.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-th"></i> PROJECTS</a>
+      <a href="people.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-user"></i> PEOPLE</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close X</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="publications.html" onclick="w3_close()" class="w3-bar-item w3-button">PUBLICATIONS</a>
+  <a href="projects.html" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="people.html" onclick="w3_close()" class="w3-bar-item w3-button">PEOPLE</a>
+</nav>
+<br>
+<br>
+<br>
+<br>
+
+<div class="w3-container w3-round">
+  
+  <div class="w3-card-4 w3-round">
+    <header class="w3-container w3-green w3-round">
+      <h3>Novel High-speed Vedic Multiplier proposal incorporating Adder based on Quaternary Signed Digit number system</h3>
+    </header>
+
+    <div class="w3-container">
+      <p style="font-family: 'Open Sans', sans-serif;font-size: 16px"> This paper presents a high-speed Vedic multiplier based on the Urdhva Tiryagbhyam sutra of Vedic mathematics that incorporates a novel adder based on Quaternary Signed digit number system. Three operations are inherent in multiplication: partial products generation, partial products reduction, and addition. A fast adder architecture therefore greatly enhances the speed of the overall process. A Quaternary logic adder architecture is proposed that works on a hybrid of binary and quaternary number systems. A given binary string is first divided into quaternary digits of 2 bits each followed by parallel addition reducing the carry propagation delay. The design does not require a radix conversion module as the sum is directly generated in binary using the novel concept of an adjusting bit. The proposed multiplier design is compared with a Vedic multiplier based on multi voltage or multi value logic [MVL], Vedic Multiplier that incorporates a QSD adder with a conversion module for quaternary to binary conversion, Vedic multiplier that uses Carry Select Adder and a commonly used fast multiplication mechanism such as Booth multiplier. All these designs have been developed using Verilog HDL and synthesized by Synopsys Design Compiler. They have been realized using the open source NAN gate 15nm technology library. The proposal shows a maximum of 88.75% speed improvement with respect to Multi Value logic based 128x128 Vedic multiplier while the minimum is 17.47%. (In Press; P. Dalmia, Vikas, A. Parashar, A. Tomar, N. Pandey, "Novel High-speed Vedic Multiplier proposal incorporating Adder based on Quaternary Signed Digit number system",  31st International Conference on VLSI Design, 2018)  </p>
+    </div>
+
+    
+  </div>
+</div>
+
+<br>
+
+<div class="w3-container w3-round">
+  
+  <div class="w3-card-4 w3-round">
+    <header class="w3-container w3-green w3-round">
+      <h3>An FPGA based floating point Gauss-Seidel iterative solver</h3>
+    </header>
+
+    <div class="w3-container">
+      <p style="font-family: 'Open Sans', sans-serif;font-size: 16px"> In this paper, an FPGA-based single precision floating point hybrid iterative architecture for solving a linear system of equations is proposed. The novel architecture implements Gauss-Seidel method using a Jacobi method based building block. The design takes advantage of the fast convergence of Gauss-Seidel Method conflated with parallel, pipelined architecture of Jacobi Iterative solver resulting in a much efficient architecture with acceptable hardware augmentation. The whole design has been implemented in Verilog HDL, having Virtex 7 XCV2000T as targeted device. Other design optimizations include using modified high-speed radix 4 multiplier and optimized high-speed 2's complementer. The efficacy of the design is tested and implemented in solving nonsingular, exactly determined and strictly diagonally dominant coefficient matrix based dense and sparse linear system of equations with different number of variables. The design results in reduced number of iterations and equivalent speedups are presented, which are calculated factoring in, the increased delay effects. (In Press; R. Joshi, A. Raghuvanshi, Y. Gilhotra, S. Sharma, S. Sharma, P. Dalmia, N. Pandey, "An FPGA based floating point Gauss-Seidel iterative solver", 14th IEEE INDICON, 2017) </p>
+    </div>
+
+    
+  </div>
+</div>
+
+<br>
+
+<div class="w3-container w3-round">
+  
+
+  <div class="w3-card-4 w3-round">
+    <header class="w3-container w3-green w3-round">
+      <h3>Fast Combinational Architecture for a Vedic Divider</h3>
+    </header>
+
+    <div class="w3-container">
+      <p style="font-family: 'Open Sans', sans-serif;font-size: 16px">This paper proposes a fast, purely combinational implementation of a divider, based on the Dhwajanka Sutra of Vedic mathematics. Vedic mathematics offers algorithms that are computationally efficient over conventional arithmetic algorithms. Dhwajanka Sutra has been chosen as it is an algorithm efficient for all possible cases, unlike other sutras for division (Nikhilam and Paravartya) which are case specific. The simplicity of the Vedic algorithm implemented in combinational form has reduced computation time significantly. The proposed design is compared with existing divider architectures implemented on an FPGA namely Non-restoring Algorithm based Divider, Vedic Divider (Paravartya Algorithm), Vedic Divider (Nikhilam Algorithm), Decimal Divider based on Newton Raphson algorithm, Decimal Divider based on SRT algorithm and Combination divider algorithms. The proposed vedic divider shows a maximum of 273.72% speed improvement while the minimum is 99.95%. The results have been validated using the Xilinx ISE Design Suite 14.7, on the Virtex5 (xc5vlx20T-2ff323) FPGA Target Technology and the design has been implemented in Verilog. (In Press; P. Dalmia, A. Parashar, G. Aggarwal, R. Dang, N. Pandey, "Fast Combinational Architecture for a Vedic Divider", 14th IEEE INDICON, 2017)  </p>
+    </div>
+
+    
+  </div>
+</div>
+
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <img src="dtulogo.png" class="w3-round" style="width:180px">
+
+        <p class="footer-links">
+          Delhi Technological University
+        </p>
+
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Shahbad Daulatpur, Main Bawana Road</span> New Delhi, India</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>011-27871018</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:dsad@dtu.ac.in">dsad@dtu.ac.in</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the college</span>
+          One of the oldest premier engineering institutes in India.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+<script>
+
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
